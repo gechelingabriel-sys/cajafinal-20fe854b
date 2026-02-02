@@ -1035,26 +1035,26 @@
 }
 
 .ds-confidential {
-  top: 20px;
-  right: 20px;
+  top: -15px;
+  right: -10px;
   border: 5px solid hsl(var(--stamp-red));
   color: hsl(var(--stamp-red));
   padding: 8px 15px;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 18px;
   transform: rotate(-18deg);
   box-shadow: inset 0 0 5px rgba(138, 28, 28, 0.4);
 }
 
 .ds-classified {
-  bottom: 85px;
-  left: 25px;
+  bottom: 30px;
+  right: -15px;
   border: 4px double hsl(var(--stamp-ink));
   color: hsl(var(--stamp-ink));
   padding: 5px 12px;
   font-weight: bold;
-  font-size: 16px;
-  transform: rotate(8deg);
+  font-size: 14px;
+  transform: rotate(12deg);
   box-shadow: inset 0 0 3px rgba(26, 35, 126, 0.3);
 }
 
